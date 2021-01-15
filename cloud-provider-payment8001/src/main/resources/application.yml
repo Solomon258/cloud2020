@@ -12,8 +12,14 @@ spring:
     username: root
     password: yueding
 
-
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.solomon.springcloud.eitities      #所有Entity别名类所在包
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
 

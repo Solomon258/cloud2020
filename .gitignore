@@ -1,5 +1,9 @@
 /cloud-consumer-order80/target
 /cloud-provider-payment8001/target
+/cloud-api-commons/target
+/cloud-eureka-server7001/target
 
 /cloud-consumer-order80/cloud-consumer-order80.iml
 
+
+/cloud-api-commons/cloud-api-commons.iml
