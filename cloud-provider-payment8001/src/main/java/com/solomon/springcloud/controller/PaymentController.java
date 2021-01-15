@@ -28,8 +28,8 @@ public class PaymentController {
     @GetMapping("/paymnet/getPaymentById/{id}")
     public CommonResult<Payment> getPaymentById(@PathVariable("id") Long id) {
         Payment payment =  paymentService.getPaymentById(id);
-        if(payment == null){
-            return new CommonResult<Payment>("200","查询成功！");
+        if(payment != null){
+            return new CommonResult<Payment>("200","查询成功！",payment);
         }else {
             return new CommonResult<Payment>("500","查询失败！");
         }
