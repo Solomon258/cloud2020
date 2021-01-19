@@ -13,7 +13,8 @@ public class OderController {
     @Resource
     private RestTemplate restTemplate;
 
-    private final static String PAYMENT_URI = "http://localhost:8001";
+//    private final static String PAYMENT_URI = "http://localhost:8001";
+    private final static String PAYMENT_URI = "http://cloud-payment-service";
 
     @PostMapping("/consumer/create")
     public CommonResult<Payment> create(@RequestBody Payment payment) {
