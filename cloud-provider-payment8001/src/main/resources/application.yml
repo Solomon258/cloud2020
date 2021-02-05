@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: cloud-payment-service
+  boot:
+    admin:
+      client:
+        url: http://localhost:6066
 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -23,3 +27,11 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+logging:
+  file: 'E:\8_log\Downloads/spring-boot-admin-client.log'

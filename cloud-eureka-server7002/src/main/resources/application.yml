@@ -1,6 +1,12 @@
 server:
   port: 7002
 
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:6066
+
 eureka:
   instance:
     hostname: eureka7002.com      #eureka 服务端的实例名称
@@ -11,3 +17,11 @@ eureka:
 #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/    #设置与eureka server交互的地址查询服务和注册服务都需要依赖这个地址
       defaultZone: http://eureka7001.com:7001/eureka/    #设置与eureka server交互的地址查询服务和注册服务都需要依赖这个地址
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+logging:
+  file: 'E:\8_log\Downloads/spring-boot-admin-client.log'
