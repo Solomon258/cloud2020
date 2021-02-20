@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7d940dc-173f-468f-a16d-630147e63efa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-boot-admin6066/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-boot-admin6066/src/main/java/com/solomon/springcloud/BootAdminMain6066.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-boot-admin6066/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-boot-admin6066/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-boot-admin6066/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/solomon/springcloud/OrderMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/solomon/springcloud/OrderMain80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/solomon/springcloud/controller/OderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/solomon/springcloud/controller/OderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/solomon/springcloud/OrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/solomon/springcloud/OrderMain80.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,18 +105,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderMain80">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.EurekaMain7002">
     <configuration name="BootAdminMain6066" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-boot-admin6066" />
       <extension name="coverage">
@@ -197,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EurekaMain7002" />
         <item itemvalue="Spring Boot.EurekaMain7001" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
         <item itemvalue="Spring Boot.BootAdminMain6066" />
-        <item itemvalue="Spring Boot.EurekaMain7002" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +209,13 @@
       <workItem from="1611284989491" duration="1338000" />
       <workItem from="1611580048842" duration="4459000" />
       <workItem from="1612142794748" duration="6958000" />
-      <workItem from="1612509471010" duration="1890000" />
+      <workItem from="1612509471010" duration="9033000" />
+      <workItem from="1612660556397" duration="641000" />
+      <workItem from="1612690470372" duration="2598000" />
+      <workItem from="1612746218035" duration="3965000" />
+      <workItem from="1612832634908" duration="2248000" />
+      <workItem from="1612919640321" duration="2686000" />
+      <workItem from="1613610854371" duration="3200000" />
     </task>
     <servers />
   </component>
